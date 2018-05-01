@@ -3,12 +3,13 @@
  * Created by PhpStorm.
  * User: calexander
  * Date: 5/1/18
- * Time: 9:42 AM
+ * Time: 11:27 AM
  */
-class Index  extends Controller {
+class Controller {
+
     function __construct()
     {
-        parent::__construct();
-        echo 'We are in index';
+        echo "Main Controller<br />";
+        $this->view = new View();
     }
 }
