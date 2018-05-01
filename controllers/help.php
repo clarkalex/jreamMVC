@@ -10,4 +10,8 @@ class Help {
     {
         echo "we are in help";
     }
+
+    public function other() {
+        echo "We are inside other";
+    }
 }
