@@ -13,12 +13,14 @@ class Bootstrap {
         $url = $_GET['url'];
         $url = rtrim($url, '/');
         $url = explode('/', $url);
-        print_r($url);
+        // print_r($url);
         $file = 'controllers/'. $url[0] . '.php';
         if (file_exists($file)){
             require $file;
         } else {
-            throw new Exception("The file $file Does not exist");
+            require 'controllers/MyErrorClass.php';
+            $controller = new MyErrorClass();
+            return false;
         }
 
         $controller = new $url[0];
