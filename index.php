@@ -8,5 +8,5 @@
 
 $url = explode('/', $_GET['url']);
 print_r($url);
-require 'controllers/'. $url . '.php';
-$controller = new $url;
+require 'controllers/'. $url[0] . '.php';
+$controller = new $url[0];
