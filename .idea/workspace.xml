@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b97b6222-7a5e-47b4-9ef9-afdacec90166" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/MyErrorClass.php" afterPath="$PROJECT_DIR$/controllers/MyErrorClass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/help.php" afterPath="$PROJECT_DIR$/controllers/help.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/error/index.php" afterPath="$PROJECT_DIR$/views/error/index.php" />
-    </list>
+    <list default="true" id="b97b6222-7a5e-47b4-9ef9-afdacec90166" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +24,8 @@
       <file leaf-file-name="help_model.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/help_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="150">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -182,12 +177,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525181406906</updated>
-      <workItem from="1525181408009" duration="5783000" />
+      <workItem from="1525181408009" duration="6269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5783000" />
+    <option name="totallyTimeSpent" value="6269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1194" y="23" width="1227" height="1245" extended-state="0" />
@@ -315,8 +310,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/help_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="150">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>
