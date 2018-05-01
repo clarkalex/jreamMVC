@@ -27,8 +27,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="135">
+              <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -43,6 +43,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/controllers/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -55,7 +56,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1198" />
+    <option name="x" value="1194" />
     <option name="y" value="23" />
     <option name="width" value="1227" />
     <option name="height" value="1245" />
@@ -84,6 +85,11 @@
             <path>
               <item name="mvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -117,15 +123,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525181406906</updated>
-      <workItem from="1525181408009" duration="646000" />
+      <workItem from="1525181408009" duration="937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="646000" />
+    <option name="totallyTimeSpent" value="937000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1198" y="23" width="1227" height="1245" extended-state="0" />
+    <frame x="1194" y="23" width="1227" height="1245" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25822785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -166,10 +172,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="135">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding />
         </state>
       </provider>
