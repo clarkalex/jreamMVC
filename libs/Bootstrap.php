@@ -10,10 +10,17 @@ class Bootstrap {
 
     function __construct()
     {
-        $url = $_GET['url'];
+        $url = $_GET['url'] ?? null; // null coalesce instead of ternary
         $url = rtrim($url, '/');
         $url = explode('/', $url);
-        // print_r($url);
+        print_r($url);
+
+        if (empty($url[0]))
+        {
+            require 'controllers/index.php';
+            $controller = new Index();
+            return false;
+        }
         $file = 'controllers/'. $url[0] . '.php';
         if (file_exists($file)){
             require $file;
