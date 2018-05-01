@@ -13,7 +13,7 @@ class Bootstrap {
         $url = $_GET['url'] ?? null; // null coalesce instead of ternary
         $url = rtrim($url, '/');
         $url = explode('/', $url);
-        print_r($url);
+        //print_r($url);
 
         if (empty($url[0]))
         {
