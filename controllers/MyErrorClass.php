@@ -11,6 +11,6 @@ class MyErrorClass extends Controller {
     {
         parent::__construct();
         echo "This is an error!";
-        return false;
+        $this->view->render('error/index');
     }
 }
