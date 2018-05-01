@@ -8,10 +8,11 @@
 class Help {
     function __construct()
     {
-        echo "we are in help";
+        echo "we are in help<br />";
     }
 
-    public function other() {
-        echo "We are inside other";
+    public function other($arg = false) {
+        echo "We are inside other<br />";
+        echo "Optional: " . $arg . "<br />";
     }
 }
