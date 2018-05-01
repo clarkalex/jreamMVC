@@ -5,5 +5,5 @@
  * Date: 5/1/18
  * Time: 9:31 AM
  */
-?>
-1
+$url = $_GET['url'];
+echo $url;
